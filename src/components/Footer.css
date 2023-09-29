@@ -1,0 +1,36 @@
+/* Footer.css */
+.footer {
+    background-color: #242424;
+    color: #fff;
+    padding: 40px 0;
+    text-align: center;
+  }
+  
+  .footer-icons {
+    margin-bottom: 20px;
+  }
+  
+  .icon-link {
+    text-decoration: none;
+    color: #fff;
+    margin: 0 15px;
+    font-size: 28px;
+    transition: color 0.3s ease;
+  
+    &:hover {
+      color: #ff8c00; 
+    }
+  }
+  
+  .footer-info p {
+    margin: 8px 0;
+    font-size: 18px;
+  }
+  
+  .footer-copyright {
+    margin-top: 20px;
+    font-size: 14px;
+    opacity: 0.8;
+  }
+  
+  

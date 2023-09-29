@@ -1,0 +1,127 @@
+/* .projects {
+    padding: 50px 0;
+    background-color: #f7f7f7;
+  }
+  
+  .projects h2 {
+    font-size: 24px;
+    margin-bottom: 20px;
+  }
+  
+ 
+  .project-item {
+    border: 1px solid #ccc;
+    padding: 20px;
+    margin: 20px;
+    background-color: white;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  }
+  
+  .project-item h3 {
+    font-size: 20px;
+    margin-bottom: 10px;
+  }
+  
+  .project-item p {
+    font-size: 16px;
+    line-height: 1.5;
+  }
+   */
+   /* section{
+    text-align: center;
+    align-items: center;
+   }
+
+   .one{
+
+    border: 2px solid red;
+    text-align: center;
+   } */
+
+   .projects{
+    background-color: #f7f7f7;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+   }
+
+   .project-card {
+    
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    border: 1px solid #e1e1e1;
+    box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1);
+    padding: 20px;
+    margin: 20px;
+    background-color: #ebe3e3;
+    max-width: 960px;
+
+    &:hover{
+      background-color: rgba(226, 181, 211, 0.966);
+    }
+  }
+
+  
+  .project-image {
+    max-width: 100%;
+    height: auto;
+  }
+  
+  .project-title {
+    font-size: 1.5rem;
+    margin-top: 10px;
+  }
+  
+  .project-description {
+    margin-top: 10px;
+  }
+  
+  .project-tech-stack {
+    margin-top: 10px;
+    p {
+      font-weight: bold;
+    }
+    ul {
+      list-style-type: none;
+      padding: 0;
+      margin: 0;
+    }
+    li {
+      margin-top: 5px;
+    }
+  }
+  
+  .project-links {
+    margin-top: 20px;
+    a {
+      display: inline-block;
+      text-decoration: none;
+      margin-right: 10px;
+      padding: 5px 10px;
+      border: 1px solid #007BFF;
+      color: #007BFF;
+      border-radius: 5px;
+      transition: background-color 0.3s, color 0.3s;
+    }
+    a:hover {
+      background-color: #007BFF;
+      color: #fff;
+    }
+  }
+  .stylish-h1 {
+    /* font-family: "Helvetica Neue", sans-serif; */
+    color: #01090eee;
+    text-align: center;
+    text-transform: uppercase;
+    letter-spacing: 0px;
+    font-size: 48px;
+    margin-top: 30px;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.3);
+}
+
+
+.stylish-h1:hover {
+    color: #e74c3c;
+}

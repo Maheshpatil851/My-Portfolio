@@ -1,0 +1,68 @@
+.education {
+  padding: 50px 0;
+  background-color: #f7f7f7;
+  color: #333;
+  text-align: center;
+}
+
+.education h2 {
+  font-size: 32px;
+  margin-bottom: 20px;
+}
+
+.education-list {
+
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  gap: 30px;
+  margin-top: 30px;
+}
+
+.education-item:hover {
+  background-color: aquamarine;
+  transform: scale(1.02);
+
+}
+
+.education-item {
+  width: 300px;
+  background-color: rgb(179, 206, 206);
+  color: black;
+  border-radius: 8px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  padding: 20px;
+  text-align: left;
+}
+
+.education-item h3 {
+  font-size: 20px;
+  margin-bottom: 10px;
+}
+
+.institution {
+  font-size: 16px;
+  color: #272222;
+  margin-bottom: 8px;
+}
+
+.year {
+  font-size: 14px;
+  color: #b82d2d;
+}
+
+.stylish-h1 {
+  /* font-family: "Helvetica Neue", sans-serif; */
+  color: #01090eee;
+  text-align: center;
+  text-transform: uppercase;
+  letter-spacing: 0px;
+  font-size: 48px;
+  margin-top: 30px;
+  text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.3);
+}
+
+
+.stylish-h1:hover {
+  color: #e74c3c;
+}

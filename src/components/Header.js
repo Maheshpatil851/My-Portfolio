@@ -38,9 +38,9 @@ function Header() {
             </div> */}
 
             <Card.Title  ><p className="text-xl font-bold" >Hi, I am</p>
-                  <p className="text-xl font-bold">Mahesh ✋</p></Card.Title>
+                  <p className="text-xl font-bold">Mahesh Patil ✋</p></Card.Title>
             <Card.Text>
-            <p className="mb-2"> A passionate Full Stack Software Developer 🚀</p>
+            <p className="mb-2"> A passionate DOT NET Full Stack Software Developer 🚀</p>
             
             
             </Card.Text>
@@ -48,13 +48,13 @@ function Header() {
           <TypeAnimation
             sequence={[
               // Same substring at the start will only be typed out once, initially
-              "React Developer",
-              1000, // wait 1s before replacing "Mice" with "Hamsters"
+              "DOT NET Full Stack Developer",
+              1000, 
               "Frontend Developer",
               2000,
               "Backend Developer",
               2000,
-              "MERN Stack Developer",
+              "React Developer",
               2000,
               "Looking for Opportunity...",
               2000,

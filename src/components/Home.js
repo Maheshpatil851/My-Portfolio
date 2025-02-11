@@ -15,14 +15,8 @@ export default function Home() {
             <Header />
             <About />
             <Skills />
-            <Work 
-        company="Keyword Software Solution"
-        _location="Nashik"
-        position="Intern as a Frontend Developer"
-        period="Oct 2022 - April 2023"
-        duration="6 month"
-        description="Designed and developed user-friendly interfaces for client websites."
-      />
+            <Work />
+       
             <Education />
             <Projects />
             <Contact />

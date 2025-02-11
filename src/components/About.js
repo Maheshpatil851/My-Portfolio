@@ -2,7 +2,7 @@ import React from 'react'
 import img from './static/coder-image.png';
 import Button from '@mui/material/Button';
 // import DownloadForOfflineSharpIcon from '@mui/icons-material/DownloadForOfflineSharp';
-import resume from './static/Mahesh_ResumeV3.00.pdf';
+import resume from './static/Mahesh__CV.pdf';
 import './About.css';
 
 
@@ -18,8 +18,8 @@ const About = () => {
                         <img src={img} alt='coderimg'  />
                     </div>
                     <div className='sm:w-96 text-xl sm:pt-20' style={{margintop: '82px', padding: '86px'}}>
-                        <p>A passionate Full Stack Software Developer
-                            having an good knowleage of building Web Applications with HTML / CSS/ JavaScript / Reactjs / Nodejs / Expressjs / MongoDB and some other cool libraries and frameworks.
+                        <p>A passionate DOt NET Full Stack Software Developer
+                            having an good knowleage of building Web Applications with HTML / CSS/ JavaScript / Reactjs / .NET Core / WEB API / ASP.NET MVC / MongoDB / SQL SERVER and some other cool libraries and frameworks.
                         </p>
                         <br/>
                        
